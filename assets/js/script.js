@@ -16,8 +16,8 @@ const cardTemplate = `
             <p class="card-text ">{description}</p>
         </div>
         <div class="card-footer text-body-secondary d-flex"  >
-            <div class="align-self-center">Valor 🤑 valor </div>
-            <a class="btn btn-primary ms-auto " href="{link}" target="_blank">Comprar</a>
+            <div class="align-self-center">Valor 🤑 {valor} </div>
+            <a class="btn btn-primary ms-auto " href="{link}" target="_blank">Adquirir</a>
         </div>
     </div> 
 </div> 
@@ -65,7 +65,7 @@ const filterAndDisplayCards = () => {
             .replace("{img}", filteredGames[i].image)
             .replace("{title}", filteredGames[i].title)
             .replace("{description}", filteredGames[i].description)
-            .replace("{worth}", filteredGames[i].worth)
+            .replace("{valor}", filteredGames[i].worth)
             .replace("{link}", filteredGames[i].open_giveaway_url);
 
         listaJuegos.insertAdjacentHTML('beforeend', cardHTML);
