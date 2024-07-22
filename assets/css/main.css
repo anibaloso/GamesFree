@@ -1,7 +1,15 @@
-
 .bits {
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.icono {
+  width: 20px;
+  height: 20px;
+}
+
+.btn{
+  min-width: 9rem;
   
+}
