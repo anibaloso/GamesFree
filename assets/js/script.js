@@ -8,8 +8,8 @@ const options = {
 
 //plantilla cards
 const cardTemplate = `
-<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 m-3" >
-    <div class="card " style="width: 18rem;  max-height:28rem; min-height:28rem;" >
+<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center" >
+    <div class="card" style="width: 18rem;  max-height:28rem; min-height:28rem;" >
         <img src="{img}" class="card-img-top" alt="...">
         <div class="card-body overflow-auto">
             <h5 class="card-title">{title}</h5>
